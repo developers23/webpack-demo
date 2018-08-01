@@ -1,0 +1,28 @@
+必要步骤
+install -g webpack
+npm init
+install --save-dev webpack (需要全局安装webpack-cli)
+ 
+ install babel/vue
+ 
+ npm install -g babel-cli
+ cnpm install babel-cli --save-dev
+ npm install --save babel-preset-es2015
+ 
+ install babel-loader
+ npm install --save-dev babel-loader babel-core
+
+
+webback
+Error: Couldn't find preset "stage-0" relative to directory
+去掉webpack.config.js中babel-loader配置
+
+成功后生成dist/build.js
+
+
+webpack.config.js中设置scripts对象
+npm start
+
+链接：https://segmentfault.com/a/1190000006178770
+
+

@@ -1,0 +1,30 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "first webpack demo",
+  "scripts": {
+    "start": "webpack" // 修改的是这里，JSON文件不支持注释，引用时请清除
+  },
+  "main": "index.js",
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0",
+    "webpack-command": "^0.4.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "entry",
+    "point:",
+    "(index.js)"
+  ],
+  "author": "test command:",
+  "license": "ISC"
+}
